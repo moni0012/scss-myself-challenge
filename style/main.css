@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Robot", sans-serif;
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Dancing script", serif;
+  color: #fafafa;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #f0a500;
+  color: #fafafa;
+  padding: 10px 20px;
+  display: block;
+  width: 100px;
+  border-radius: 10px;
+  text-align: center;
+}
+.button__form {
+  background-color: #55a5f0;
+  width: 100%;
+  border: none;
+}
+.button__logout {
+  background-color: white;
+  border: 1px solid blue;
+  color: #333333;
+  border-radius: 10px;
+  width: 150px;
+  margin: 10px 510px;
+  display: center;
+}
+
+.intro {
+  text-align: center;
+}
+.intro__hello {
+  color: #28527a;
+  font-size: 50px;
+}
+.intro__welcome {
+  font-family: "Dancing script", serif;
+  font-size: 25px;
+  margin: 10px 0;
+}
+.intro__button {
+  margin: auto;
+}
+
+.wave {
+  fill: #28527a;
+}
+
+.form {
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+.form__field {
+  margin-bottom: 10px;
+}
+
+.logout__thanks {
+  font-family: "Dancing script", serif;
+  font-size: 25px;
+  margin: 10px 510px;
+}
+
+.end {
+  background-color: #28527a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.end__site {
+  color: #fafafa;
+  font-family: "Dancing script", serif;
+  font-size: 25px;
+}
+.end__right {
+  color: #fafafa;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.end__date {
+  color: #fafafa;
+  font-size: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.navigation {
+  background-color: #28527a;
+  padding: 0 40px;
+  display: flex;
+  height: 8vh;
+  justify-content: space-between;
+}
+
+.header {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  background-color: #28527a;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=main.css.map */

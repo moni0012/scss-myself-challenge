@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
+
+$font-body:"Robot",
+sans-serif;
+$font-diaplay: "Dancing script",
+serif;
+
+$color-primary:#28527a;
+$color-secondary:#55a5f0;
+$color-white: #fafafa;
+$color-black: #333333;
+$color-primary-light:#55a5f0;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-black;
+}
+
+
+a {
+    text-decoration: none;
+}

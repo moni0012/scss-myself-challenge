@@ -1,0 +1,32 @@
+@use "_base.scss"as *;
+
+.navigation {
+    background-color: $color-primary;
+    padding: 0 40px;
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+
+
+}
+
+.header {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    background-color: $color-primary;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: $color-white;
+    display: flex;
+    flex-direction: column;
+}

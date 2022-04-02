@@ -1,0 +1,110 @@
+@use "_base.scss"as *;
+
+.logo {
+    font-family: $font-diaplay;
+    color: $color-white;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #f0a500;
+    color: $color-white;
+    padding: 10px 20px;
+    display: block;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+
+    &__form {
+        background-color: $color-primary-light;
+        width: 100%;
+        border: none;
+
+    }
+
+    &__logout {
+        background-color: white;
+        border: 1px solid blue;
+        color: $color-black;
+        border-radius: 10px;
+        width: 150px;
+        margin: 10px 510px;
+        display: center;
+
+    }
+}
+
+.intro {
+    text-align: center;
+
+    &__hello {
+        color: $color-primary;
+        font-size: 50px;
+
+    }
+
+    &__welcome {
+        font-family: $font-diaplay;
+        font-size: 25px;
+        margin: 10px 0;
+    }
+
+    &__button {
+        margin: auto;
+    }
+}
+
+.wave {
+    fill: $color-primary;
+    // fill-opacity: 1;
+    // vertical-align: middle;
+
+}
+
+.form {
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+
+    &__field {
+        margin-bottom: 10px;
+    }
+
+}
+
+.logout__thanks {
+    font-family: $font-diaplay;
+    font-size: 25px;
+    margin: 10px 510px;
+}
+
+.end {
+    background-color: $color-primary;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    &__site {
+        color: $color-white;
+        font-family: $font-diaplay;
+        font-size: 25px;
+
+    }
+
+    &__right {
+        color: $color-white;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    &__date {
+        color: $color-white;
+        font-size: 20px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+}
